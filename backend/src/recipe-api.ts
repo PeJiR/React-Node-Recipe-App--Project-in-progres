@@ -1,4 +1,5 @@
 import { URLSearchParams } from "url";
+import { DefaultDeserializer } from "v8";
 // Setup a New File for Recipe API Logic
 const apiKey = process.env.API_KEY;
 
@@ -10,7 +11,7 @@ export const searchRecipes = async(searchTerm: string, page: number) => {
     const url = new URL("https://api.spoonacular.com/recipes/complexSearch");
 
     const queryParams = {
-        apiKey,
+        apiKey, 
         query: searchTerm,
         number:"10",
         offset: (page*10).toString()
@@ -22,7 +23,7 @@ export const searchRecipes = async(searchTerm: string, page: number) => {
         const resultsJson = await searchResponse.json();
         return resultsJson;
         
-    } catch (error) {
+    } catch (error) { 
         console.log(error)
         
     }

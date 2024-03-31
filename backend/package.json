@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.ts",
- 
   "scripts": {
     "start": "npx nodemon"
   },
@@ -12,6 +11,7 @@
   "dependencies": {
     "@prisma/client": "^5.11.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "prisma": "^5.11.0"
   },
