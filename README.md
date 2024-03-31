@@ -10,6 +10,11 @@
 
 Welcome to the React-Node Recipe App! This application allows users to view, add, and manage their favorite recipes. It's built using React for the frontend and Node.js with Prisma for the backend.
 
+- Setting up a React frontend with interactive components.
+- Building a scalable backend using Node.js and Express.
+- Integrating PostgreSQL for reliable data storage and retrieval.
+- Implementing CRUD operations.
+
 ## Technology Used ✨
 <div>
 JavaScript <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="css3" width="40" height="40"/> 
@@ -19,6 +24,12 @@ Node.js <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.mi
 VSCode   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="css3" width="40" height="40"/>
 Debian   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/debian/debian-original-wordmark.svg" alt="css3" width="40" height="40"/>
 </div>
+
+- React
+- Node.js & Express.js
+- PostgreSQL Database
+- JWT Authentication
+- RESTful API Design
 
 
 ## Getting Started 🚀
