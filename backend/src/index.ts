@@ -2,7 +2,8 @@
 
 import express from "express";
 import cors from "cors";
-import * as recipeAPI from './recipe-api'
+import * as RecipeAPI from './recipe-api'
+import * as searchRecipes from "./searchRecipes";
 
 const app = express();
 
@@ -13,7 +14,7 @@ app.get("/api/recipe/search", async (req, res) => {
   //Get http://localhost/api/recipes/search?searchTerm=burguers&page=1
   const searchTerm =req.query.searchTerm as string;
   const page =parseInt(req.query.page as string);
-  const results = recipeAPI.searchRecipes(searchTerm, page);
+  const results = await searchRecipes.searchRecipes(searchTerm, page);
 
   return res.json(results);
 });
