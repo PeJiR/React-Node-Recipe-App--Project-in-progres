@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "npx node"
+    "start": "npx nodemon"
   },
   "author": "",
   "license": "ISC",
