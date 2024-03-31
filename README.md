@@ -33,7 +33,7 @@ Debian   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/deb
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/chrisblakely01/react-node-recipe-app.git
+   git clone https://github.com/PeJiR/React-Node-Recipe-App-.git
    cd react-node-recipe-app
    ```
 
