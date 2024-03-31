@@ -85,8 +85,14 @@ Debian   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/deb
      ```bash
      npm run dev
      ```
+## Project Architecture
 
-   
+Here's a diagram that illustrates how the various components of our app will interact with each other:
+
+<img src="https://www.freecodecamp.org/news/content/images/2023/10/recipe-app-architecture.png" width="500px" height="500px" >
+
+    
+
 ## Author
 
 👤 **Roberto PEREZ**
