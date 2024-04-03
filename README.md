@@ -62,10 +62,13 @@ Debian   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/deb
 
    - **Spoonacular API**:
      - Add the api key to the API_KEY variable in the .env file   
+     https://spoonacular.com/food-api/console#Profile
+     
 
    - **ElephantSQL Setup**:
      - Create a new database instance on ElephantSQL.
      - Copy the connection string provided by ElephantSQL.
+     https://api.elephantsql.com/console/832058dc-a923-4ce6-b120-1983f33cfebd/details
 
    - **Prisma Setup**:
      - Replace the `DATABASE_URL` in the `.env` file with your ElephantSQL connection string.
